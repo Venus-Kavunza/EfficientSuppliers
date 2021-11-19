@@ -1,0 +1,168 @@
+html{
+  font-family: 'Roboto';
+}
+
+
+
+.logo{
+  padding-top: 5px;
+  display: flex;
+}
+.logotext {
+  color: rgba(26, 163, 255);
+  font-weight: 20%;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.navlist {
+  display: flex;
+  margin-top: 0%;
+  padding-bottom: 4%;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 22%;
+  font-weight: bold;
+ 
+}
+li {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: -35px;
+}
+.btn{
+  width: 90px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.cta {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.section {
+  background-color: blue;
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin: -1.5%;
+}
+.section1 {
+  text-align: center;
+  background-image: url(images/Back33.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  margin-top: -150px;
+}
+
+.section1 h1 {
+  color: white;
+  padding-top: 30px;
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.section2 {
+  text-align: center;
+}
+
+.section4 {
+  text-align: center;
+}
+
+.section5 {
+  display: flex;
+}
+
+.section6 {
+  text-align: center;
+}
+
+.section3 {
+  text-align: center;
+}
+
+.Hire {
+  text-align: center;
+}
+
+.section7 {
+  background-color: blue;
+  height: 300px;
+  text-align: center;
+  padding-top: 7%;
+  color: white;
+  font-weight: bolder;
+}
+.section7 h3{
+  padding-bottom: 5%;
+}
+
+#one {
+  position: relative;
+  width: 400;
+  margin: 2%;
+  height: 400;
+  margin-top: 2%;
+  text-align: center;
+}
+
+
+.img {
+
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.V {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  margin-top: -40%;
+  margin-left: 45%;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-40%, -40%);
+  text-align: center;
+  color: black;
+  font-size: 18px;
+  padding: 15px 32px;
+}
+
+#one:hover .img {
+  opacity: 0.3;
+}
+
+#one:hover .V {
+  opacity: 5;
+}
+
+.footer{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.ftext {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: -60px;
+}
+.socialmedia p{
+  font-weight: bold;
+  font-size: 24px;
+}
+.fa:hover {
+    color: red;
+    background-color: white;
+}
+.fa-facebook {
+  color: white;
+}
+.fab .fa-linkedin {
+  color: white;
+}
