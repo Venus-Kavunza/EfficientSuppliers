@@ -1,0 +1,216 @@
+body {
+    background-color: white;
+    font: roboto;
+}
+.navbar{
+    display: flex;
+}
+.logo{
+    padding-top: 20px;
+}
+.logotext {
+    float: right;
+    margin-top: 0.5%;
+    color: rgba(26, 163, 255);
+    font-weight: 20%;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.navlist {
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 22%;
+    font-weight: bold;
+}
+li {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.btn{
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.cta {
+    
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.text {
+    text-align: center;
+    font-size: 24px;
+}
+.products {
+    background-image: url(../images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row1 {
+    display: flex;
+}
+.electronics {
+    margin-left: 200px;
+    background-color: white;
+    background-position:center ;
+    width: 485px;
+    height: 505px;
+    margin-top: 50px;
+}
+.electronics h1{
+    text-align: center;
+    font-size: 30px;
+}
+.electronics img {
+    margin-left: 120px;
+}
+.electronics p {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+.electronics button {
+    margin-left: 120px;
+    background-color:black;
+    color:white;
+    width: 271px;
+    height: 54px;
+    background-position-x: 141px;
+    background-position-y: 2033px;
+    border: none;
+    font-size: 24px;
+}
+.furniture {
+    margin-left: 150px;
+    background-color: white;
+    background-position:center ;
+    width: 485px;
+    height: 505px;
+    margin-top: 50px;
+}
+.furniture h1{
+    text-align: center;
+    font-size: 30px;
+}
+.furniture img {
+    margin-left: 120px;
+}
+.furniture p {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+.furniture button {
+    margin-left: 120px;
+    background-color:black;
+    color:white;
+    width: 271px;
+    height: 54px;
+    background-position-x: 141px;
+    background-position-y: 2033px;
+    border: none;
+    font-size: 24px;
+}
+.row2 {
+    display: flex;
+}
+
+.farmproduce {
+    margin-left: 200px;
+    background-color: white;
+    background-position:center ;
+    width: 485px;
+    height: 505px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.farmproduce h1{
+    text-align: center;
+    font-size: 30px;
+}
+.farmproduce img {
+    margin-left: 120px;
+}
+.farmproduce p {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+.farmproduce button {
+    margin-left: 110px;
+    background-color:black;
+    color:white;
+    width: 271px;
+    height: 54px;
+    background-position-x: 141px;
+    background-position-y: 2033px;
+    border: none;
+    font-size: 24px;
+}
+.Accessories {
+    margin-left: 150px;
+    background-color: white;
+    background-position:center ;
+    width: 485px;
+    height: 505px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Accessories h1{
+    text-align: center;
+    font-size: 30px;
+}
+.Accessories img {
+    margin-left: 120px;
+}
+.Accessories p {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+.Accessories button {
+    margin-left: 110px;
+    background-color:black;
+    color:white;
+    width: 271px;
+    height: 54px;
+    background-position-x: 141px;
+    background-position-y: 2033px;
+    border: none;
+    font-size: 24px;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  .ftext {
+      font-weight: bold;
+      font-size: 24px;
+      margin-left: -60px;
+  }
+  .socialmedia p{
+    font-weight: bold;
+    font-size: 24px;
+    
+  }
+  
+  .fa:hover {
+      color: red;
+      background-color: white;
+  }
+  .fa-facebook {
+    
+    color: white;
+  }
+  .fab .fa-linkedin {
+    
+    color: white;
+    
+  }
