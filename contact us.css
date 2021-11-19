@@ -3,10 +3,7 @@ html {
 }
 body {
   width: 100%;
-  
-}
-
-
+  }
 
 .navbar{
   display: flex;
@@ -124,8 +121,7 @@ input[type=text], select{
 margin-top: -45%;
   text-align: center;
   margin-left: 10%;
-  
-}
+  }
 
 #all {
 display: flex;
