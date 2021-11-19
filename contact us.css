@@ -1,0 +1,176 @@
+html {
+  font-family: 'Roboto';
+}
+body {
+  width: 100%;
+  
+}
+
+
+
+.navbar{
+  display: flex;
+}
+.logo{
+  padding-top: 10px;
+}
+.logotext {
+  float: right;
+  margin-top: 0.5%;
+  color: rgba(26, 163, 255);
+  font-weight: 20%;
+  font-size: 24px;
+  padding-top: 20px;
+}
+.navlist {
+  display: flex;
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 15%;
+  font-weight: bold;
+  padding-top: -6%;
+}
+li {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.btn{
+  width: 90px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+.cta {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+}
+
+.contact {
+  text-align: center;
+  background-color: blue;
+  height: 200px;
+  padding-top: 3%;
+ 
+}
+.form1{
+  border: solid;
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  margin-left: 40% ;
+  margin-top: 70px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  border: grey;
+  box-shadow: grey 0px 5px 5px ;
+  margin: 2%;
+  margin-top: -4.3%;
+}
+#list{
+padding-left: 30px;
+}
+input[type=text], select{
+  width:250px;
+  padding: 12px 20px;
+  margin: 0;
+  display: inline-block;
+  border-radius: 5px;
+  border-color: grey;
+}
+
+#call {
+  border: solid white;
+  background-color: blue;
+  color: white;
+  width: 150px;
+  margin: 2%;
+ 
+ 
+}
+#call img {
+  margin-top: -9%;
+}
+  
+
+#call2 {
+  border: solid white;
+  background-color: blue;
+  color: white;
+  width: 150px; 
+  margin: 2%;
+ 
+}
+#call2 img {
+  margin-top: -8%;
+}
+
+#call1 {
+  border: solid white;
+  background-color: blue;
+  color: white;
+  width: 150px;
+  margin: 2%;
+ 
+}
+#call img {
+  margin-top: -10% ;
+}
+.section1 {
+margin-top: -45%;
+  text-align: center;
+  margin-left: 10%;
+  
+}
+
+#all {
+display: flex;
+margin: 4%;
+}
+.s img{
+  height: 500px;
+  width: px;
+  margin-right:40%;
+  margin-left: 6.8%;
+  margin-top: -7.0%;
+
+  }
+.button1{
+  background-color:blue;
+  text-align: center;
+  color: #FBA500; 
+  border: none;
+  border-radius: 6%;
+  width: 70px;
+  height: 30px;
+}
+
+.footer{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5%;
+}
+.ftext {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: -60px;
+}
+.socialmedia p{
+  font-weight: bold;
+  font-size: 24px;
+}
+.fa:hover {
+    color: red;
+    background-color: white;
+}
+.fa-facebook {
+  color: white;
+}
+.fab .fa-linkedin {
+  color: white;
+}
