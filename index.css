@@ -1,0 +1,158 @@
+.navbar{
+    display: flex;
+}
+.logo{
+    padding-top: 20px;
+}
+.logotext {
+    float: right;
+    margin-top: 0.5%;
+    color: rgba(26, 163, 255);
+    font-weight: 20%;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.navlist {
+    display: flex;
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 27%;
+    font-weight: bold;
+}
+li {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.btn{
+    width: 90px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+.cta {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+.container{
+    margin-top: 1%;
+    margin-right: 0%;
+    background-color: grey;
+    height: 500px;
+    
+}
+.pic{
+    display: flex;
+    
+    
+}
+.pic >p{
+    font-size: 30px;
+    margin-left: 8%;
+    line-height: 40px;
+    font-style: italic;
+    margin-top: 7%;
+    color: white;
+}
+.con{
+    display: flex;
+    margin-left: 15%;
+    
+
+}
+.content{
+     background-color: white;
+}
+.con >p{
+    font-size: 40px;
+    padding-right: 5%;
+    justify-content: center;
+    line-height: 50px;
+    padding-top: 3%;
+    background-color: white;
+    font-style: italic;
+    
+}
+.con >img{
+    margin-left: 18%;
+}
+.sect{
+    background-image: url(images/bg.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.box{
+    
+    margin-left: 35%;
+    padding-top: 10%;
+     }
+   .sect >p{
+       margin-left: 38%;
+       padding-top: 3px;
+       font-size: 50px;
+       color: white;
+       font-weight: 500px;
+       font-style: italic;
+   }
+   .pro{
+       background-color: black;
+       color: white;
+       font-size: 40px;
+       margin-left: 42%;
+       border-radius: 25px;
+       
+   }
+   input[ type="text"]{
+       width: 340px;
+       height: 50px;
+       border-radius: 25px;
+   }
+   input[ type="submit"]{
+    width: 100px;
+    height: 56px;
+    background-color:blue;
+    border-radius: 25px;
+   }
+   .about{
+       display: flex;
+       background-color: grey;
+       font-style: italic;
+       
+   }
+   .us{
+      
+       font-size: 20px;
+       margin-left: 12%;
+       margin-top: 4%;
+       line-height: 40px;
+
+   }
+   .us >p{
+       font-style: italic;
+   }
+   .image{
+    padding-left: 30%;
+   
+    
+}
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  .ftext {
+      font-weight: bold;
+      font-size: 24px;
+      margin-left: -60px;
+  }
+  .socialmedia p{
+    font-weight: bold;
+    font-size: 24px;
+  }
